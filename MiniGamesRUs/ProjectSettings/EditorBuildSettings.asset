@@ -11,4 +11,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Brandomogus/Obby/Easy Obby.unity
     guid: 6e578f1b009ffc046b3c4f6dbf1346b6
+  - enabled: 1
+    path: Assets/Scenes/Brandomogus/Obby/EasyObby2.unity
+    guid: cf40f3423e4842a40bf87e7eb0a3518b
   m_configObjects: {}
