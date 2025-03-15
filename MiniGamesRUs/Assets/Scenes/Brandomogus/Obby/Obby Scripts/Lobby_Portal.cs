@@ -7,11 +7,15 @@ public class LobbyPortal : MonoBehaviour
 {
     public Material obbyPortalMaterial; // Reference to the Obby Portal's material
     public Color portalColor = Color.green; // Color to change to
+    public Color emissionColor = Color.green;
 
     // Start is called before the first frame update
     void Start()
     {
-
+        if (obbyPortalMaterial == null)
+        {
+            Debug.LogError("Obby Portal Material is not assigned in the inspector.");
+        }
     }
 
     // Update is called once per frame
@@ -25,13 +29,13 @@ public class LobbyPortal : MonoBehaviour
     {
         if (collision.CompareTag("Player"))
         {
-           
-            // Change the obby portal color to green
+            // Change the obby portal's material color
             if (obbyPortalMaterial != null)
             {
-                obbyPortalMaterial.color = portalColor;
+                obbyPortalMaterial.color = emissionColor;
             }
 
+            // Load the "main map" scene
             SceneManager.LoadScene("main map");
         }
     }

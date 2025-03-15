@@ -1096,6 +1096,7 @@ GameObject:
   - component: {fileID: 492556418}
   - component: {fileID: 492556417}
   - component: {fileID: 492556416}
+  - component: {fileID: 492556419}
   m_Layer: 0
   m_Name: e
   m_TagString: Untagged
@@ -1159,7 +1160,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 1162becba916c5342a90345088e0260d, type: 2}
+  - {fileID: 2100000, guid: 4b5b827ed5d51f14289601213bf0de49, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1189,6 +1190,18 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 492556414}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &492556419
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 492556414}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 511f8ec26b2a98148817170215958599, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &531123454
 GameObject:
   m_ObjectHideFlags: 0
@@ -1602,6 +1615,7 @@ GameObject:
   - component: {fileID: 687440801}
   - component: {fileID: 687440800}
   - component: {fileID: 687440799}
+  - component: {fileID: 687440803}
   m_Layer: 0
   m_Name: Outer Door
   m_TagString: Untagged
@@ -1695,6 +1709,18 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &687440803
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 687440798}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 511f8ec26b2a98148817170215958599, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &719465976
 GameObject:
   m_ObjectHideFlags: 0
@@ -2654,6 +2680,7 @@ GameObject:
   - component: {fileID: 1162687555}
   - component: {fileID: 1162687554}
   - component: {fileID: 1162687553}
+  - component: {fileID: 1162687556}
   m_Layer: 0
   m_Name: e
   m_TagString: Untagged
@@ -2747,6 +2774,18 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1162687551}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1162687556
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1162687551}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 511f8ec26b2a98148817170215958599, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1308009704
 GameObject:
   m_ObjectHideFlags: 0
